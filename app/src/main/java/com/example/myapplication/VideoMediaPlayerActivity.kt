@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.MediaController
+import kotlinx.android.synthetic.main.activity_video_media_player.*
 
 class VideoMediaPlayerActivity : AppCompatActivity() {
     private var uri: Uri? = null
@@ -14,9 +15,9 @@ class VideoMediaPlayerActivity : AppCompatActivity() {
         setContentView(R.layout.activity_video_media_player)
         val mediaController = MediaController(this)
         mediaController.setAnchorView(vv)
-        val uriPath = ""
+        val uriPath = "https://ia600209.us.archive.org/24/items/WildlifeSampleVideo/Wildlife.mp4"
         uri = Uri.parse(uriPath)
-        vv!!.setOnCompletetionListener {
+        vv!!.setOnCompletionListener {
             if (isContinuously) {
                 vv!!.start()
             }

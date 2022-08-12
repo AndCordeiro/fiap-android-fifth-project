@@ -14,7 +14,8 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:onClick="soundCow"
-        app:srcCompat="@raw/cow" />
+        app:srcCompat="@drawable/ic_cow"
+        tools:ignore="UsingOnClickInXml" />
 
     <TextView
         android:layout_width="match_parent"
@@ -29,6 +30,7 @@
         android:onClick="soundDog"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        app:srcCompat="@raw/dog" />
+        app:srcCompat="@drawable/ic_dog"
+        tools:ignore="UsingOnClickInXml" />
 
 </LinearLayout>

@@ -19,12 +19,12 @@ class RecuperacaoFotosActivity : AppCompatActivity() {
         textView5.text = equipes[4]
         textView6.text = equipes[5]
 
-        val i1 = ""
-        val i2 = ""
-        val i3 = ""
-        val i4 = ""
-        val i5 = ""
-        val i6 = ""
+        val i1 = "https://static.todamateria.com.br/upload/le/ao/leaojuba-cke.jpg"
+        val i2 = "https://upload.wikimedia.org/wikipedia/commons/3/3b/Humboldt-Pinguin.jpg"
+        val i3 = "https://veja.abril.com.br/wp-content/uploads/2019/05/mundo-urso-pardo-20181227-002-copy-1.jpg"
+        val i4 = "https://www.hypeness.com.br/1/2020/11/00e0a6b2-647.jpg"
+        val i5 = "https://www.worldanimalprotection.org.br/sites/default/files/styles/600x400/public/media/1008357-flip.jpg?h=35582878&itok=YspoJbqd"
+        val i6 = "https://classic.exame.com/wp-content/uploads/2016/09/size_960_16_9_rato1.jpg?quality=70&strip=info&w=960"
 
         Glide.with(this).load(i1).into(imageView1!!)
         Glide.with(this).load(i2).into(imageView2!!)

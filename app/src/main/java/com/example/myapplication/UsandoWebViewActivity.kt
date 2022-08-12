@@ -6,6 +6,7 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_recuperacao_fotos.*
+import kotlinx.android.synthetic.main.activity_usando_web_view.*
 
 class UsandoWebViewActivity : AppCompatActivity() {
     @SuppressLint("SetJavaScriptEnabled")

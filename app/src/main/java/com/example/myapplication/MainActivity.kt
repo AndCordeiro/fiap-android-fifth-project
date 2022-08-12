@@ -16,43 +16,23 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-    fun utilizandoMaps(view: View) {
-        val intent = Intent(this, RecuperacaoFotosActivity::class.java)
-        startActivity(intent)
-    }
-
-    fun localizacaoLocationApi(view: View) {
-        val intent = Intent(this, RecuperacaoFotosActivity::class.java)
-        startActivity(intent)
-    }
-
-    fun rotas(view: View) {
-        val intent = Intent(this, RecuperacaoFotosActivity::class.java)
-        startActivity(intent)
-    }
-
-    fun pontosInteressantes(view: View) {
-        val intent = Intent(this, RecuperacaoFotosActivity::class.java)
-        startActivity(intent)
-    }
-
     fun usandoWebview(view: View) {
-        val intent = Intent(this, RecuperacaoFotosActivity::class.java)
+        val intent = Intent(this, UsandoWebViewActivity::class.java)
         startActivity(intent)
     }
 
     fun audioManager(view: View) {
-        val intent = Intent(this, RecuperacaoFotosActivity::class.java)
+        val intent = Intent(this, SonsAudiosActivity::class.java)
         startActivity(intent)
     }
 
     fun videoMediaPlayer(view: View) {
-        val intent = Intent(this, RecuperacaoFotosActivity::class.java)
+        val intent = Intent(this, VideoMediaPlayerActivity::class.java)
         startActivity(intent)
     }
 
     fun acessarAnimacao(view: View) {
-        val intent = Intent(this, RecuperacaoFotosActivity::class.java)
+        val intent = Intent(this, AnimacaoActivity::class.java)
         startActivity(intent)
     }
 }
