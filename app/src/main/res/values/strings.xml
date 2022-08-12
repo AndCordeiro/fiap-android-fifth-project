@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="recuperando_fotos">Recuperando fotos com ImageView</string>
+    <string name="utilizando_mapas_mapview">Utilizando mapas: MapView</string>
+    <string name="localiza_usuario_location_api">Localização do usuário com Location API</string>
+    <string name="rotas">rotas</string>
+    <string name="pontos_interesses">Pontos Interesses</string>
+    <string name="usando_webview">Usando Webview em seus apps</string>
+    <string name="sons_audiomanager">Sons: AudioManager</string>
+    <string name="videos_mediaplayer">Videos: MediaPlayer</string>
+    <string name="animacoes_view_animation">Animação em views com View Animation</string>
+    <string name="toque_na_imagem_do_animal">Toque na imagem do animal!!!</string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="40dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:onClick="acessarRecuperacaoFotos"
+        android:text="@string/recuperando_fotos"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        tools:ignore="RtlHardcoded,UsingOnClickInXml" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:onClick="utilizandoMaps"
+        android:text="@string/utilizando_mapas_mapview"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        tools:ignore="RtlHardcoded,UsingOnClickInXml" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:onClick="localizacaoLocationApi"
+        android:text="@string/localiza_usuario_location_api"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        tools:ignore="RtlHardcoded,UsingOnClickInXml" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:onClick="rotas"
+        android:text="@string/rotas"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        tools:ignore="RtlHardcoded,UsingOnClickInXml" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:onClick="pontosInteressantes"
+        android:text="@string/pontos_interesses"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        tools:ignore="RtlHardcoded,UsingOnClickInXml" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:onClick="usandoWebview"
+        android:text="@string/usando_webview"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        tools:ignore="RtlHardcoded,UsingOnClickInXml" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:onClick="audioManager"
+        android:text="@string/sons_audiomanager"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        tools:ignore="RtlHardcoded,UsingOnClickInXml" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:onClick="videoMediaPlayer"
+        android:text="@string/videos_mediaplayer"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        tools:ignore="RtlHardcoded,UsingOnClickInXml" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:onClick="acessarAnimacao"
+        android:text="@string/animacoes_view_animation"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        tools:ignore="RtlHardcoded,UsingOnClickInXml" />
+
+
+</LinearLayout>
