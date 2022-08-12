@@ -16,6 +16,14 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun utilizandoMaps(view: View) {}
+
+    fun localizacaoLocationApi(view: View) {}
+
+    fun rotas(view: View) {}
+
+    fun pontosInteressantes(view: View) {}
+
     fun usandoWebview(view: View) {
         val intent = Intent(this, UsandoWebViewActivity::class.java)
         startActivity(intent)
