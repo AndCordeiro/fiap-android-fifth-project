@@ -10,8 +10,10 @@ class RecuperacaoFotosActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recuperacao_fotos)
 
+        // nomes dos animais
         val equipes = arrayOf("Leão", "Pinguin", "Urso", "Girafa", "Tigre", "Rato")
 
+        // set dos nomes no textview
         textView1.text = equipes[0]
         textView2.text = equipes[1]
         textView3.text = equipes[2]
@@ -19,6 +21,7 @@ class RecuperacaoFotosActivity : AppCompatActivity() {
         textView5.text = equipes[4]
         textView6.text = equipes[5]
 
+        // Link das imagens
         val i1 = "https://static.todamateria.com.br/upload/le/ao/leaojuba-cke.jpg"
         val i2 = "https://upload.wikimedia.org/wikipedia/commons/3/3b/Humboldt-Pinguin.jpg"
         val i3 = "https://veja.abril.com.br/wp-content/uploads/2019/05/mundo-urso-pardo-20181227-002-copy-1.jpg"
@@ -26,6 +29,7 @@ class RecuperacaoFotosActivity : AppCompatActivity() {
         val i5 = "https://www.worldanimalprotection.org.br/sites/default/files/styles/600x400/public/media/1008357-flip.jpg?h=35582878&itok=YspoJbqd"
         val i6 = "https://classic.exame.com/wp-content/uploads/2016/09/size_960_16_9_rato1.jpg?quality=70&strip=info&w=960"
 
+        // recuperação das imagens
         Glide.with(this).load(i1).into(imageView1!!)
         Glide.with(this).load(i2).into(imageView2!!)
         Glide.with(this).load(i3).into(imageView3!!)

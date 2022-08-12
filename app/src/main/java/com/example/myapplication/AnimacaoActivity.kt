@@ -9,6 +9,8 @@ import android.widget.ArrayAdapter
 import kotlinx.android.synthetic.main.activity_animacao_activity.*
 
 class AnimacaoActivity : AppCompatActivity() {
+
+    // nomes dos efeitos
     internal var animations = arrayOf(
         "Fade In",
         "Fade Out",
@@ -21,6 +23,8 @@ class AnimacaoActivity : AppCompatActivity() {
         "Slide Down",
         "Bounce"
     )
+
+    // ids dos efeitos criados na para anim
     internal var animationsIds = intArrayOf(
         R.anim.fade_in,
         R.anim.fade_out,
@@ -37,8 +41,9 @@ class AnimacaoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_animacao_activity)
-
+        // adapter de items passando os nomes dos efeitos
         lv.adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, animations)
+        // ação dos items da lista
         lv.onItemClickListener = AdapterView.OnItemClickListener { parent, view, position, id ->
             val animation = AnimationUtils.loadAnimation(this, animationsIds[position])
             tv.startAnimation(animation)

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Funcionalidades</string>
     <string name="recuperando_fotos">Recuperando fotos com ImageView</string>
     <string name="utilizando_mapas_mapview">Utilizando mapas: MapView</string>
     <string name="localiza_usuario_location_api">Localização do usuário com Location API</string>

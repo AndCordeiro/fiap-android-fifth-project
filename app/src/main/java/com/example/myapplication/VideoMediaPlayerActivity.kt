@@ -22,8 +22,11 @@ class VideoMediaPlayerActivity : AppCompatActivity() {
                 vv!!.start()
             }
         }
+        // botão pausar
         btnstop!!.setOnClickListener { vv!!.pause() }
+        // botão iniciar
         btnplay!!.setOnClickListener { vv!!.start() }
+        // botão reprodução 1 vez
         btnonce!!.setOnClickListener {
             isContinuously = false
             progress!!.visibility = View.VISIBLE
@@ -32,6 +35,7 @@ class VideoMediaPlayerActivity : AppCompatActivity() {
             vv!!.requestFocus()
             vv!!.start()
         }
+        // botão reprodução continua
         btnconti!!.setOnClickListener {
             isContinuously = true
             progress!!.visibility = View.VISIBLE

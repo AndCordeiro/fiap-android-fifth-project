@@ -14,6 +14,7 @@ class UsandoWebViewActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_usando_web_view)
 
+        // tratamento do webview
         webview!!.webViewClient = object : WebViewClient() {
             override fun shouldOverrideUrlLoading(
                 view: WebView?,
@@ -26,7 +27,9 @@ class UsandoWebViewActivity : AppCompatActivity() {
             }
         }
 
+        // ativando js
         webview!!.settings.javaScriptEnabled = true
+        // site a abrir no webview
         webview!!.loadUrl("https://www.fiap.com.br")
     }
 }
